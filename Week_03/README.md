@@ -16,3 +16,5 @@
    递归是一种计算机支持的循环，也适合思考，其实回溯就是递归利用，不过有些回溯多了 reverse state；
    回溯是遍历所有可能的问题，是动态规划的暴力形式，用于动态规划的问题都有一个最优子结构，dp 需要存贮子问题的解，
    在回溯的过程中可以进行剪枝，可以搞缓存，所以其实是一回事，可以看成是一种优化；
+
+#学号: G20200343140142 #姓名: jack #班级: 第 17 期 #语言: JAVA、python #作业链接:https://github.com/dream201188/algorithm017/tree/master/Week_03 #总结链接:https://github.com/dream201188/algorithm017/tree/master/Week_03

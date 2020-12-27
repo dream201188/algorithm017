@@ -13,14 +13,6 @@ class Solution(object):
         :type digits: str
         :rtype: List[str]
         """
-
-        def dfs(index, cur):
-            if length == index:
-                res.append(cur)
-                return
-            for tmp in key_map.get(digits[index]):
-                dfs(index + 1, cur + tmp)
-
         res = []
         key_map = {
             "2": "abc", "3": "def", "4": "ghi", "5": "jkl", "6": "mno", "7": "pqrs", "8": "tuv",
@@ -30,6 +22,14 @@ class Solution(object):
 
         if not digits:
             return res
+
+        def dfs(index, cur):
+            if length == index:
+                res.append(cur)
+                return
+            for tmp in key_map.get(digits[index]):
+                dfs(index + 1, cur + tmp)
+
 
         dfs(0, "")
         return res

@@ -21,5 +21,17 @@ class Solution(object):
                     return False
 
         return not stack
+
+    # 先报左括号入栈
+    def isValid(self, s: str) -> bool:
+        stack = list()
+        dic = {'{':'}', '[':']', '(':')'}
+        for c in s:
+            if c in dic:
+                stack.append(c)
+            elif not stack or dic[stack.pop()] != c:
+                return False
+        return not stack
+
 # @lc code=end
 

@@ -18,4 +18,4 @@
    常见的题，或者说做过的题目会有就会了，因为定义真的很难，很隐晦；然后去找他们之间的动态关系真的是有时候找不到；
    目前我的状态是只要找对了之间的关系了，写这个题目倒是不难，而且从上而下的深度搜索+记忆剪枝也用的比较熟练了；
 
-#学号: G20200343140142 #姓名: jack #班级: 第 17 期 #语言: python #作业链接:https://github.com/dream201188/algorithm017/tree/master/Week_06 #总结链接:https://github.com/dream201188/algorithm017/tree/master/Week_06
+#学号: G20200343140142 #姓名: jack #班级: 第 17 期 #语言: python #作业链接:https://github.com/dream201188/algorithm017/tree/master/Week_08 #总结链接:https://github.com/dream201188/algorithm017/tree/master/Week_08

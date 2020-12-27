@@ -77,10 +77,10 @@ class Solution:
 
         mono_stack = list()
         for i in range(n):
-            while mono_stack and heights[mono_stack[-1]] > heights[i]:
+            while mono_stack and heights[mono_stack[-1]] > heights[i]: # 新碰到的比当前小的值正好是他的右边界；
                 right[mono_stack[-1]] = i
                 mono_stack.pop()
-            left[i] = mono_stack[-1] if mono_stack else -1
+            left[i] = mono_stack[-1] if mono_stack else -1  # 当前最新值是左边界；
             mono_stack.append(i)
 
         ans = max((right[i] - left[i] - 1) * heights[i] for i in range(n))

@@ -1,4 +1,4 @@
-#
+# -*- coding: utf-8 -*-
 # @lc app=leetcode.cn id=66 lang=python3
 #
 # [66] 加一
@@ -11,7 +11,7 @@ from typing import List
 
 class Solution:
 
-    def plusOne(self, digits: List[int]) -> List[int]:
+    def plusOne(self, digits):
         length = len(digits)
         if length == 0:
             digits = []

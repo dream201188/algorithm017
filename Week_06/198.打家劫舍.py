@@ -26,3 +26,5 @@ class Solution:
         for i in range(2, length + 1):
             b, a = max(b, a + nums[i - 1]), b
         return b
+
+
